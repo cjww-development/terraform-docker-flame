@@ -16,4 +16,8 @@ resource "docker_container" "flame" {
     host_path      = docker_volume.flame_volume.mountpoint
     read_only      = false
   }
+
+  env = [
+    "PASSWORD=${var.dashboard_password}"
+  ]
 }

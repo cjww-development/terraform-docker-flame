@@ -51,3 +51,9 @@ variable "access_interface_bind" {
   description = "The network interface that the 5005 port will bind to"
   default     = "0.0.0.0"
 }
+
+variable "dashboard_password" {
+  type        = string
+  description = "The password to access Flame"
+  sensitive   = true
+}

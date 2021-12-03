@@ -39,6 +39,7 @@ No modules.
 |------|-------------|------|---------|:--------:|
 | <a name="input_access_interface_bind"></a> [access\_interface\_bind](#input\_access\_interface\_bind) | The network interface that the 5005 port will bind to | `string` | `"0.0.0.0"` | no |
 | <a name="input_access_port"></a> [access\_port](#input\_access\_port) | The host port number the internal port 5005 will map to | `number` | `5005` | no |
+| <a name="input_dashboard_password"></a> [dashboard\_password](#input\_dashboard\_password) | The password to access Flame | `string` | n/a | yes |
 | <a name="input_docker_host"></a> [docker\_host](#input\_docker\_host) | The host where docker resides | `string` | n/a | yes |
 | <a name="input_flame_container_name"></a> [flame\_container\_name](#input\_flame\_container\_name) | The name of the Flame container to be created | `string` | n/a | yes |
 | <a name="input_flame_image_name"></a> [flame\_image\_name](#input\_flame\_image\_name) | The name of the Flame docker image that should be pulled | `string` | n/a | yes |
